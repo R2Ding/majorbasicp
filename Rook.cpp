@@ -23,3 +23,8 @@ bool Rook::isMoveable(File x, Rank y, Cell(&board)[Rank::Ranksize][File::Filesiz
 	return true;
 }
 
+vector<pair<int, int>> Rook::CheckAttackCell(Cell(&board)[Rank::Ranksize][File::Filesize]) const
+{
+	return vector<pair<int, int>>();
+}
+

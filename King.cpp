@@ -22,3 +22,8 @@ bool King::isMoveable(File x, Rank y, Cell(&board)[Rank::Ranksize][File::Filesiz
 	return true;
 }
 
+vector<pair<int, int>> King::CheckAttackCell(Cell(&board)[Rank::Ranksize][File::Filesize]) const
+{
+	return vector<pair<int, int>>();
+}
+
